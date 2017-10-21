@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Speech recognition</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    html, 
+    body {
+        height: 100%;
+    }
+    body {
+      background-color: #311B92;
+      font-family: 'Roboto';
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #caption {
+      color: #fff;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <p id="caption"></p>
+
+  <script src="./lib/p5.js"></script>
+  <script src="./lib/p5.dom.js"></script>
+  <script src="./lib/p5.speech.js"></script>
+  <script src="./recognizer.js"></script>
+</body>
+</html>
