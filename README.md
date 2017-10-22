@@ -64,3 +64,15 @@ Many thanks for this API, and building a better enviroment for those living with
 and nerds, us too.
 
 Implimentation authored by mjrdnk.
+| :x: | :x: | :x: | :x: |
+
+# credit
+Many thanks to the brilliant Daniel Shiffman's instruction in:
+
+The Coding Train - https://www.youtube.com/watch?v=q_bXBcmfTJM
+
+And acknowledging the creator of p5.Speech, rev3rend on github 'aka' R. Luke DuBois. 
+Many thanks for this API, and building a better enviroment for those living with disabilities... 
+and nerds, us too.
+
+Implimentation authored by mjrdnk.
