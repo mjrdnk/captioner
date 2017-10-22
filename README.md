@@ -1,11 +1,16 @@
-# captioner
-Creates dynamic captions based on speech recognition.
+# Captioner
+This project will help you creates dynamic captions based on speech recognition.
+
+
+# Prerequisites
+In order to run the project, you should have node.js and npm installed.
 
 ## dependencies
 - node.js
 - npm
 
-## usage
+# Usage
+
 ```bash
 $ git clone https://github.com/mjrdnk/captioner.git
 $ cd captioner
@@ -17,11 +22,14 @@ Then open a supported browser at [localhost:3000](localhost:3000) and enjoy the 
 
 ![screenshot](https://i.imgur.com/YziSWqt.png")
 
+# Compatibility
+Browser compatibility for now: Chrome.
+
 ## supported browsers
 
 | Google Chrome | Mozilla Firefox | Opera | Safari | Internet Explorer |
 | --- | --- | --- | --- | --- |
 | :heavy_check_mark: | :x: | :x: | :x: | :x: |
 
-## credit
-The Coding Train - [YouTube](https://www.youtube.com/watch?v=q_bXBcmfTJM)
+# Credits
+The Coding Train - https://www.youtube.com/watch?v=q_bXBcmfTJM
