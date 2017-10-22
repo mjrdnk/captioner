@@ -1,13 +1,16 @@
 # Captioner
+
 Captioner, creates dynamic captions based on speech recognition.
 
 # Requirements
+
 You should have node.js and npm installed. Aswell as a microphone available for detection.
 This is not a local execution. This is handled with speech recognition on the cloud,
 via the p5.speech.js library. You must install this as a dependancy for a new p5.SpeechRec().
 
-# Running
+# execution
 
+A call to recognizer.js from the index instantiates, a p5.Speech API interaction.
 ```js
 function setup() {
     noCanvas();
@@ -26,6 +29,8 @@ function setup() {
     }
 }
 ```
+
+See: http://ability.nyu.edu/p5.js-speech/ for documentation.
 
 # usage
 
@@ -54,7 +59,5 @@ The Coding Train - https://www.youtube.com/watch?v=q_bXBcmfTJM
 And acknowledging the creator of p5.Speech(), rev3rend on github 'aka' R. Luke DuBois. 
 Many thanks for this API, and building a better enviroment for those living with disabilities... 
 and nerds, us too.
-
-See: http://ability.nyu.edu/p5.js-speech/ for documentation.
 
 Implimentation authored by mjrdnk.
