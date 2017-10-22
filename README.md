@@ -46,6 +46,10 @@ Chrome works!
 Firefox says ```p5.SpeechRec: webkitSpeechRecognition not supported in this browser.```
 
 # credit
-Many thanks to the brilliant Daniel Shiffman.
+Many thanks to the brilliant Daniel Shiffman's instruction in:
 The Coding Train - https://www.youtube.com/watch?v=q_bXBcmfTJM
-And the creator rev3rend on github aka (R. Luke DuBois). Many thanks for this API and building a better enviroment for those with disabilities... and nerds, us too. See: http://ability.nyu.edu/p5.js-speech/ for documentation. Implimentation authored by mjrdnk.
+
+And acknowledging the creator of p5.Speech(), rev3rend on github 'aka' R. Luke DuBois. 
+Many thanks for this API, and building a better enviroment for those living with disabilities... 
+and nerds, us too. See: http://ability.nyu.edu/p5.js-speech/ for documentation.
+Implimentation authored by mjrdnk.
