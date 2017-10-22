@@ -11,7 +11,7 @@ via the p5.speech.js library. You must install this as a dependancy for a new p5
 ```
 function setup() {
     noCanvas();
-    let recording = new p5.SpeechRec('en-US');
+    let recording = *new p5.SpeechRec('en-US')*;
     recording.onResult = showResult;
 
     let continuous = true;
