@@ -64,4 +64,3 @@ Many thanks for this API, and building a better enviroment for those living with
 and nerds, us too.
 
 Implimentation authored by mjrdnk.
-| :x: | :x: | :x: | :x: |
