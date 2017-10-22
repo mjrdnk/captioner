@@ -1,11 +1,3 @@
-
-## usage
-```bash
-$ git clone https://github.com/mjrdnk/captioner.git
-$ cd captioner
-$ npm install
-$ npm start
-```
 # captioner
 Creates dynamic captions based on speech recognition.
 
