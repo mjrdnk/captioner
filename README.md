@@ -4,7 +4,7 @@ Captioner, creates dynamic captions based on speech recognition.
 
 # requirements
 
-You should have node.js and npm installed. Aswell as a microphone available for detection.
+You should have Chrome, Node.js, and NPM installed. Aswell as a microphone available for detection.
 This is not a local execution. This is handled with speech recognition on the cloud,
 via the p5.speech.js library. You must install this as a dependancy for a new p5.SpeechRec().
 
