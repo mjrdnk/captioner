@@ -6,11 +6,12 @@ Creates dynamic captions based on speech recognition.
 - npm
 - p5.Speech
 # requirements
-A microphone is needed and you also require an internet connection as this is a cloud based process.
+A microphone is needed and also requires an internet connection, as this is a cloud based process.
 
 # execution
 
 A call to recognizer.js from the index instantiates, a p5.Speech API interaction.
+
 ```js
 function setup() {
     noCanvas();
