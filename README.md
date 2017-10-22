@@ -1,16 +1,17 @@
 # captioner
+Creates dynamic captions based on speech recognition.
 
-Captioner, creates dynamic captions based on speech recognition.
+## dependencies
+- node.js
+- npm
+- p5.Speech
 
 # requirements
-
-You should have Chrome, Node.js, and NPM installed. Aswell as a microphone available for detection.
-This is not a local execution. This is handled with speech recognition on the cloud,
-via the p5.speech.js library. You must install this as a dependancy for a new p5.SpeechRec().
+A microphone is needed and you also require an internet connection as this is a cloud based process.
 
 # execution
-
 A call to recognizer.js from the index instantiates, a p5.Speech API interaction.
+
 ```js
 function setup() {
     noCanvas();
@@ -33,7 +34,6 @@ function setup() {
 See: http://ability.nyu.edu/p5.js-speech/ for documentation.
 
 # usage
-
 ```bash
 git clone https://github.com/mjrdnk/captioner.git
 cd captioner
@@ -43,22 +43,23 @@ npm start
 Consult your command-line documentation for instructions on ending the execution.
 In windows on CMD it is CTRL + C. It responds with a prompt asking if you would like to quit.
 
-Navigate to the URL: localhost:3000 from Chrome.
+Finally open your browser to [localhost:3000](localhost:3000), you will be prompted to enable
+your microphone, and enjoy the captions:
 
-After being prompted to enable your microphone, it will convert your microphone
-input to text output on the screen.
+![screenshot](https://i.imgur.com/YziSWqt.png")
 
-# compatibility
+## supported browser
 
-Chrome works!
-Firefox says ```p5.SpeechRec: webkitSpeechRecognition not supported in this browser.```
+| Google Chrome | Mozilla Firefox | Opera | Safari | Internet Explorer |
+| --- | --- | --- | --- | --- |
+| :heavy_check_mark: | :x: | :x: | :x: | :x: |
 
 # credit
 Many thanks to the brilliant Daniel Shiffman's instruction in:
 
 The Coding Train - https://www.youtube.com/watch?v=q_bXBcmfTJM
 
-And acknowledging the creator of p5.Speech(), rev3rend on github 'aka' R. Luke DuBois. 
+And acknowledging the creator of p5.Speech, rev3rend on github 'aka' R. Luke DuBois. 
 Many thanks for this API, and building a better enviroment for those living with disabilities... 
 and nerds, us too.
 
