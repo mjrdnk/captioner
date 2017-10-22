@@ -1,10 +1,9 @@
-# captioner
-Creates dynamic captions based on speech recognition.
+# Captioner
+This project will help you creates dynamic captions based on speech recognition.
 
 ## dependencies
 - node.js
 - npm
-- p5.Speech
 
 # requirements
 A microphone is needed and you also require an internet connection as this is a cloud based process.
@@ -33,12 +32,13 @@ function setup() {
 
 See: http://ability.nyu.edu/p5.js-speech/ for documentation.
 
-# usage
+# Usage
+
 ```bash
-git clone https://github.com/mjrdnk/captioner.git
-cd captioner
-npm install
-npm start
+$ git clone https://github.com/mjrdnk/captioner.git
+$ cd captioner
+$ npm install
+$ npm start
 ```
 Consult your command-line documentation for instructions on ending the execution.
 In windows on CMD it is CTRL + C. It responds with a prompt asking if you would like to quit.
@@ -56,11 +56,4 @@ your microphone, and enjoy the captions:
 
 # credit
 Many thanks to the brilliant Daniel Shiffman's instruction in:
-
 The Coding Train - https://www.youtube.com/watch?v=q_bXBcmfTJM
-
-And acknowledging the creator of p5.Speech, rev3rend on github 'aka' R. Luke DuBois. 
-Many thanks for this API, and building a better enviroment for those living with disabilities... 
-and nerds, us too.
-
-Implimentation authored by mjrdnk.
