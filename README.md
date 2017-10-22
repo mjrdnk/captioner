@@ -45,7 +45,7 @@ Consult your command-line documentation for instructions on ending the execution
 In windows on CMD it is CTRL + C. It responds with a prompt asking if you would like to quit.
 
 
-Then open a chrome to [localhost:3000](localhost:3000) and enjoy the captions:
+Then open the browser to [localhost:3000](localhost:3000) and enjoy the captions:
 
 ![screenshot](https://i.imgur.com/YziSWqt.png")
 
