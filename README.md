@@ -36,8 +36,8 @@ npm start
 ```
 
 Navigate to the URL: localhost:3000 from Chrome.
-After being prompted to enable your microphone, it will convert the client's microphone
-input to text on the screen.
+After being prompted to enable your microphone, it will convert your microphone
+input to text output on the screen.
 
 # compatibility
 Browser compatibility for now: Chrome.
