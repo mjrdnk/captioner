@@ -35,8 +35,7 @@ npm install
 npm start
 ```
 
-Then go to localhost:3000 and enjoy the caption:
-You will be promted for permission to stream your voice to the recognition processor.
+Navigate to localhost:3000 from Chrome and after being prompted to enable your microphone it will convert the client's voice to text on the screen.
 
 
 # compatibility
