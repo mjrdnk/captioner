@@ -1,13 +1,36 @@
 # Captioner
 This project will help you creates dynamic captions based on speech recognition.
 
-
-# Prerequisites
-In order to run the project, you should have node.js and npm installed.
-
 ## dependencies
 - node.js
 - npm
+
+# requirements
+A microphone is needed and you also require an internet connection as this is a cloud based process.
+
+# execution
+A call to recognizer.js from the index instantiates, a p5.Speech API interaction.
+
+```js
+function setup() {
+    noCanvas();
+    let recording = new p5.SpeechRec();
+    recording.onResult = showResult;
+
+    let continuous = true;
+    let iterim = true;
+  
+    recording.start(continuous, iterim);
+    
+    function showResult() {
+        if (recording.resultString) {
+          document.getElementById('caption').innerText = recording.resultString;
+        }
+    }
+}
+```
+
+See: http://ability.nyu.edu/p5.js-speech/ for documentation.
 
 # Usage
 
@@ -17,19 +40,20 @@ $ cd captioner
 $ npm install
 $ npm start
 ```
+Consult your command-line documentation for instructions on ending the execution.
+In windows on CMD it is CTRL + C. It responds with a prompt asking if you would like to quit.
 
-Then open a supported browser at [localhost:3000](localhost:3000) and enjoy the caption:
+Finally open your browser to [localhost:3000](localhost:3000), you will be prompted to enable
+your microphone, and enjoy the captions:
 
 ![screenshot](https://i.imgur.com/YziSWqt.png")
 
-# Compatibility
-Browser compatibility for now: Chrome.
-
-## supported browsers
+## supported browser
 
 | Google Chrome | Mozilla Firefox | Opera | Safari | Internet Explorer |
 | --- | --- | --- | --- | --- |
 | :heavy_check_mark: | :x: | :x: | :x: | :x: |
 
-# Credits
+# credit
+Many thanks to the brilliant Daniel Shiffman's instruction in:
 The Coding Train - https://www.youtube.com/watch?v=q_bXBcmfTJM
