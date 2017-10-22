@@ -40,6 +40,8 @@ cd captioner
 npm install
 npm start
 ```
+Consult your command-line documentation for instructions on ending the execution.
+In windows on CMD it is CTRL + C. It responds with a prompt asking if you would like to quit.
 
 Navigate to the URL: localhost:3000 from Chrome.
 
