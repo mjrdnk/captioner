@@ -2,11 +2,11 @@
 Creates dynamic captions based on speech recognition.
 
 ## dependencies
-- node.js
-- npm
-- p5.Speech
+- Node.js
+- NPM
+- p5.Speech.js
 # requirements
-A microphone is needed and also requires an internet connection, as this is a cloud based process.
+A microphone and internet connection are required, as this is a cloud based process.
 
 # execution
 
